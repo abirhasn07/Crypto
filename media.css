@@ -1,0 +1,250 @@
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100vw;
+  }
+  header {
+    width: 100vw;
+    display: none;
+  }
+
+  header > .logo {
+    display: none;
+  }
+
+  /* nav start  */
+  .navbar {
+    width: 100vw;
+    background-color: var(--NavbarBg);
+    display: block;
+    height: 100vh;
+    position: fixed;
+    top: -100%;
+    z-index: 9999;
+    left: 0%;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+  }
+  .navbar.active {
+    top: 0%;
+  }
+  .nav-links {
+    display: block;
+  }
+  .nav-links li {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .nav-links li a {
+    color: var(--Gray_color);
+    font-size: 24px;
+  }
+  .nav-links li i {
+    font-size: 16px;
+  }
+  .nav-icons {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 10%;
+  }
+  .nav-icons i {
+    font-size: 28px;
+  }
+
+  .nav-logo.d-block {
+    display: none;
+  }
+  #close-btn {
+    display: none;
+  }
+  #open-btn {
+    font-size: 28px;
+    color: white;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    z-index: 999999;
+    background-color: var(--NavbarBg);
+    display: block;
+  }
+  /* nav end  */
+
+  /* dropdown start  */
+  .about-dropdown,
+  .community-dropdown,
+  .language-dropdown {
+    display: none;
+    overflow-y: scroll;
+  }
+
+  /* dropdown end */
+
+  #banner {
+    width: 100vw !important;
+  }
+
+  #particles-js {
+    width: 100vw;
+  }
+
+  .title {
+    margin-top: 100px;
+  }
+
+  .title h2 {
+    font-size: 40px;
+    text-align: center;
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .title p {
+    text-align: center;
+    width: 100vw;
+    margin-top: 0;
+  }
+
+  .package-title,
+  .package-title-bottom {
+    width: 90vw;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 140%;
+    margin: auto;
+  }
+
+  .package-container {
+    width: 100vw;
+
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .package-card {
+    flex-basis: 100% !important;
+    padding-bottom: 0;
+  }
+  .welcome-title {
+    font-size: 30px;
+    padding: 30px 0 0 0;
+    line-height: 24px;
+  }
+  .welcome-paragraph {
+    width: 80vw;
+  }
+  .video {
+    width: 85vw;
+    margin: auto;
+    padding: 25px 0;
+  }
+  iframe {
+    width: 90vw;
+    height: 45vh;
+  }
+  .decentralized-logo {
+    display: grid;
+    place-items: center;
+  }
+  .border-bottom {
+    margin-top: 35px;
+    width: 70vw;
+  }
+  .border-2 {
+    margin-top: 35px;
+    width: 70vw;
+  }
+  .decentralized-paragraph {
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3em;
+  }
+  .decentralized-logo {
+    width: 90vw;
+    margin: auto;
+  }
+  .decentralized-logo img {
+    width: 100%;
+  }
+  #decentralized-title {
+    line-height: 120%;
+    width: 90vw;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+  }
+  #team-p {
+    width: 80vw;
+  }
+  #energy-title {
+    width: 80vw;
+    line-height: 100%;
+    padding: 0;
+    font-size: 1.4em;
+    margin-top: 30px;
+  }
+  .story-card-container {
+    width: 100vw;
+
+    margin: auto;
+    padding: 20px 0;
+  }
+  .stroy-card {
+    flex-basis: 80%;
+    background-color: lightgrey;
+    margin-top: 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  .stroy-card img {
+    max-height: 100vh;
+    width: 100%;
+    padding-top: 0;
+  }
+  .stroy-card h4,
+  p {
+    text-align: center;
+    color: var(--Black_bg);
+    padding: 5px 0;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    width: 90%;
+    margin: auto;
+  }
+  #subscribe-title {
+    width: 90vw;
+    margin: auto;
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+  #subscribe p {
+    padding-top: 25px;
+  }
+  .footer-col {
+    flex-basis: 90%;
+    margin: auto;
+    padding: 25px 0 0px 0;
+  }
+  .footer-logo {
+    flex-basis: 100%;
+  }
+  .footer-col h5 {
+    flex-basis: 100%;
+    display: none;
+    background-color: royalblue;
+  }
+  .social-icons {
+    padding-bottom: 25px;
+  }
+}
