@@ -28,11 +28,12 @@ particlesJS('particles-js',
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
-          "color": "#000000"
+          "width": 2,
+          "color": "#00e676",
+          "opacity":0.1
         },
-        "polygon": {
-          "nb_sides": 5
+        "bubble": {
+          "nb_sides": 1
         },
         "image": {
           "src": "img/github.svg",

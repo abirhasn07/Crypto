@@ -725,3 +725,75 @@ p {
 .social-icons i:hover {
   color: var(--Green_bg);
 }
+
+/* roadmap start  */
+
+#roadmap {
+  background-color: var(--NavbarBg);
+  overflow: hidden;
+}
+
+.road-map-container {
+  width: 95%;
+  margin: auto;
+}
+.roadmap-title {
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--White_bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.roadmap-links {
+  width: 60%;
+  margin: auto;
+  display: none;
+}
+.roadmap-timeline {
+  width: 70%;
+  margin: auto;
+}
+.roadmap-timeline > h1 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 40px 0;
+  color: var(--White_bg);
+  position: relative;
+}
+.roadmap-timeline > h1::after {
+  position: absolute;
+  content: "";
+  top: 45px;
+  left: -50px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px solid var(--Green_bg);
+}
+.roadmap-timeline > h1::before {
+  position: absolute;
+  content: "";
+  top: 80px;
+  left: -33px;
+  height: 90px;
+  width: 3px;
+  background-color: var(--DarkGreen);
+}
+blockquote {
+  width: 70%;
+  margin: auto;
+  color: var(--Gray_color);
+  font-style: italic;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+/* roadmap end  */

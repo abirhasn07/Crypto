@@ -247,4 +247,9 @@
   .social-icons {
     padding-bottom: 25px;
   }
+
+  .roadmap-timeline > h1 {
+    font-size: 22px;
+    width: 90%;
+  }
 }
