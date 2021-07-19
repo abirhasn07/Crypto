@@ -743,7 +743,7 @@ p {
   text-align: center;
   color: var(--White_bg);
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .roadmap-links {
   width: 60%;
@@ -751,8 +751,9 @@ p {
   display: none;
 }
 .roadmap-timeline {
-  width: 70%;
+  width: 45%;
   margin: auto;
+  padding-bottom: 70px;
 }
 .roadmap-timeline > h1 {
   font-size: 30px;
@@ -760,6 +761,7 @@ p {
   padding: 40px 0;
   color: var(--White_bg);
   position: relative;
+  text-align: left;
 }
 .roadmap-timeline > h1::after {
   position: absolute;
@@ -776,21 +778,22 @@ p {
   -o-border-radius: 50%;
   border: 3px solid var(--Green_bg);
 }
-.roadmap-timeline > h1::before {
+/* .roadmap-timeline > h1::before {
   position: absolute;
   content: "";
-  top: 80px;
+  top: 45px;
   left: -33px;
   height: 90px;
   width: 3px;
   background-color: var(--DarkGreen);
-}
+} */
 blockquote {
   width: 70%;
   margin: auto;
   color: var(--Gray_color);
   font-style: italic;
   font-size: 12px;
+  padding-bottom: 30px;
 }
 
 .hidden {
