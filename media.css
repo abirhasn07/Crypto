@@ -259,6 +259,10 @@
     margin-top: 3.5rem;
     display: none;
     padding-bottom: 2rem;
+    text-align: center;
+  }
+  .application-subtitle {
+    text-align: center;
   }
   .appliction-title {
     text-align: center;
@@ -267,6 +271,8 @@
     letter-spacing: 5px;
     line-height: 45px;
     font-family: inherit;
+    width: 90%;
+    margin: auto;
   }
   /* application end  */
 }
