@@ -253,4 +253,20 @@
     font-size: 22px;
     width: 90%;
   }
+
+  /* application start  */
+  #applications {
+    margin-top: 3.5rem;
+    display: none;
+    padding-bottom: 2rem;
+  }
+  .appliction-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 45px;
+    font-family: inherit;
+  }
+  /* application end  */
 }

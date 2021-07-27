@@ -804,8 +804,29 @@ blockquote {
 /* application start  */
 #applications {
   margin-top: 3.5rem;
-  display: none;
+  display: block;
 }
+.application-subtitle {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.application-subtitle::after {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  height: 2px;
+  width: 70%;
+  background-color: black;
+  content: "";
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
 .appliction-title {
   text-align: center;
   font-size: 66px;
