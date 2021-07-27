@@ -61,7 +61,7 @@
 
 
     <ul class="nav-links">
-      <li>
+      <li onclick="closeDisplay()">
         <a href="#">Home</a>
       </li>
       <li id="about" onclick="aboutSubMenu()">
@@ -113,7 +113,7 @@
         </div>
   
       </li>
-      <li><a href="#">Applications</a></li>
+      <li onclick="showDisplay()"><a href="#applications" >Applications</a></li>
       <li><a href="#">Our Projects</a></li>
       <li id="language" onclick="languageSubMenu()">
         <a href="#">
@@ -195,7 +195,7 @@
 
 <!-- navbar  -->
         <div class="title">
-          <h2>ENERGI</h2>
+          <h2>World Saving Energy </h2>
           <p>Cryptocurrencies for World Consciousness</p>
         </div>
       </div>
@@ -556,6 +556,20 @@
       </div>
     </footer>
     <!-- footer end -->
+
+
+    <!-- applications start  -->
+    <section id="applications">
+    <div class="container">
+      <div class="applications-container">
+        <h1 class="appliction-title">This Section Coming Soon </h1>
+      </div>
+    </div>
+      
+    </section>
+    <!-- applications end -->
+
+
     <script>
      
       
@@ -594,6 +608,17 @@
         const languageSubMenu=document.querySelector('.language-dropdown')
         aboutSubMenu.style.display="block"
       }
+
+      // application click button
+
+      const showDisplay=()=>{
+        document.getElementById("applications").style.display="block"
+      }
+      const closeDisplay=()=>{
+        document.getElementById("applications").style.display="none"
+      }
+
+      
       
     </script>
     <script src="./particles/particles.min.js"></script>

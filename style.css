@@ -800,3 +800,18 @@ blockquote {
   display: none;
 }
 /* roadmap end  */
+
+/* application start  */
+#applications {
+  margin-top: 3.5rem;
+  display: none;
+}
+.appliction-title {
+  text-align: center;
+  font-size: 66px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 94px;
+  font-family: inherit;
+}
+/* application end  */
